@@ -1,0 +1,189 @@
+.footer {
+  background: $blackColor;
+  padding: var(--vr-2) 0 3.7rem;
+  font-size: var(--fs-6);
+  color: $lightGrayColor;
+  position: relative;
+  &__container {
+  }
+  &__row {
+  }
+  &__col {
+    &--logo {
+      margin-right: $colWidth;
+    }
+    &--nav-product {
+      margin-top: .9rem;
+    }
+    &--nav-info {
+      margin-top: .9rem;
+    }
+    &--contacts {
+      margin-top: .9rem;
+    }
+    &--development {
+      margin-top: 2.9rem;
+      align-self: center;
+    }
+    &--payments {
+      margin-top: 2.9rem;
+      align-self: center;
+    }
+  }
+  &__logo {
+    margin: 0 0 var(--vr-5);
+    display: inline-flex;
+    align-items: center;
+    transition: $transition;
+    &:hover {
+      text-decoration: none;
+      @media (min-width: $lg-mf) {
+        opacity: .6;
+      }
+    }
+    &-img {
+      width: 31.3rem;
+      height: auto;
+      display: block;
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+  }
+  &__description {
+    @extend .font-type-8;
+    margin: 0 1.6rem var(--vr-6) 0;
+  }
+  &__copyright {
+    @extend .font-type-8;
+    margin: 0;
+  }
+  &__privacy-text {
+    @extend .font-type-8;
+    margin: 0 0 var(--vr-5);
+    color: $coolGrayColor;
+  }
+  &__privacy {
+    margin: 0 0 var(--vr-7);
+    font-size: var(--fs-5);
+    font-family: $ffAccent;
+    color: $coolGrayColor;
+    * {
+      letter-spacing: inherit;
+    }
+    a {
+      box-shadow: inset 0 -1px 0 rgba($steelGrayColor, .6);
+      transition: $transition;
+      &:hover {
+        text-decoration: none;
+        @media (min-width: $lg-mf) {
+          color: $accentColor;
+          box-shadow: inset 0 -1px 0 $accentColor;
+        }
+      }
+    }
+  }
+  &__nav {
+    line-height: 1.34;
+    &-list {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      letter-spacing: inherit;
+    }
+    &-item {
+      margin: 0;
+      padding: 0;
+      letter-spacing: inherit;
+      &:not(:last-child) {
+        margin-bottom: 1.5rem;
+      }
+    }
+    &-link {
+      color: $coolGrayColor;
+      letter-spacing: inherit;
+      transition: $transition;
+      &:hover {
+        text-decoration: none;
+        @media (min-width: $lg-mf) {
+          color: $accentColor;
+        }
+      }
+    }
+  }
+  &__link-title {
+    @extend .fs-5;
+    margin: 0 0 .6rem;
+    display: inline-block;
+    transition: $transition;
+    &:hover {
+      text-decoration: none;
+      @media (min-width: $lg-mf) {
+        color: $accentColor;
+      }
+    }
+  }
+  &__choose-city {
+    margin: 2.1rem 0 1.3rem;
+  }
+  &__address {
+    @extend .font-type-8;
+    margin: 0 0 3.1rem;
+    color: $coolGrayColor;
+  }
+  &__contacts-list {
+    margin: 0 -2.4rem -1.2rem 0;
+    padding: 0 0 var(--vr-8);
+    display: flex;
+    list-style-type: none;
+    font-weight: 600;
+    font-size: var(--fs-5);
+    font-family: $ffAccent;
+    flex-wrap: wrap;
+    li {
+      margin: 0 2.4rem 1.2rem 0;
+      padding: 0;
+    }
+    a {
+      transition: $transition;
+      &:hover {
+        text-decoration: none;
+        @media (min-width: $lg-mf) {
+          color: $accentColor;
+        }
+      }
+    }
+  }
+  &__sc {
+  }
+  &__development {
+    @extend .font-type-8;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    white-space: nowrap;
+    &-link {
+      @extend %link-cover;
+      letter-spacing: inherit;
+      transition: $transition;
+      &:hover {
+        text-decoration: none;
+        @media (min-width: $lg-mf) {
+          color: rgba($lightGrayColor, .7);
+        }
+      }
+    }
+    &-logo {
+      width: 7.4rem;
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+  }
+}

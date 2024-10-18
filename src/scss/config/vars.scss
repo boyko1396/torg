@@ -1,0 +1,142 @@
+$siteResolution: .5208333333vw;
+$mainFont: 'Istok Web';
+$accentFont: 'Proxima Nova';
+$mainWeight: 400;
+$lineHeight1: .9;
+$lineHeight2: 1;
+$lineHeight3: 1.15;
+$lineHeight4: 1.2;
+$lineHeight5: 1.3;
+$lineHeight6: 1.35;
+$lineHeight7: 1.4;
+$lineHeight8: 1.5;
+$lineHeight9: 1.1;
+$lineHeightDefault: $lineHeight6;
+
+$letterSpacingDefault: -.02em;
+$letterSpacingMd: -.04em;
+$letterSpacingXs: -.01em;
+
+$containerWidthFluid: 182rem;
+
+$whiteColor: #FAFAFA;
+$blackColor: #0F0F0F;
+$blackDarkColor: #1A1A1A;
+$blackNeutralColor: #231F20;
+$lightLavenderColor: #F5F5F7;
+$steelGrayColor: #60626C;
+$steelGrayColorOpacity60: rgba($steelGrayColor, .6);
+$steelGrayColorOpacity40: rgba($steelGrayColor, .4);
+$greyColor: #BBBFD2;
+$greyBlueColor: #8A8D9C;
+$orangeRedColor: #F34B16;
+$burntOrangeColor: #A43B0F;
+$coolGrayColor: #787B87;
+$lightGrayColor: #EEEEEE;
+$almostWhiteColor: #FAFBFF;
+$greenColor: #3D6D6D;
+$accentColor: $orangeRedColor;
+
+$gap: 1rem;
+$gapFluid: 2rem;
+
+$radiusXs: .4rem;
+$radiusSm: .6rem;
+$radiusSemi: .8rem;
+$radiusSm2: 1.2rem;
+$radiusMd: 1.6rem;
+
+$colWidth: 8.333333%;
+
+$gradientAccent1: linear-gradient(90deg, $orangeRedColor 0%, $burntOrangeColor 100%);
+$gradientGrey1: linear-gradient(90deg, rgba($steelGrayColor, .15) 0%, rgba($greyBlueColor, .15) 46.59%, rgba($greyColor, .15) 100%);
+
+$bgSite: $lightLavenderColor;
+$ffMain: $mainFont, $accentFont, sans-serif, Arial;
+$ffAccent: $accentFont, sans-serif, Arial;
+$fontColor: rgba($blackColor, .8);
+$fontWeight: $mainWeight;
+
+$transition: all .4s 0ms;
+
+$xl: 1440px;
+$xl-mf: $xl + 1;
+
+$lg: 1199px;
+$lg-mf: $lg + 1;
+
+$md: 991px;
+$md-mf: $md + 1;
+
+$sm: 767px;
+$sm-mf: $sm + 1;
+
+$xs: 576px;
+$xs-mf: $xs + 1;
+
+:root {
+  --fs-default: 1.8rem;
+  --fs-1: 8.8rem;
+  --fs-2: 5.6rem;
+  --fs-3: 3.2rem;
+  --fs-4: 2.4rem;
+  --fs-5: 1.8rem;
+  --fs-6: 1.6rem;
+  --fs-7: 1.4rem;
+  --fs-8: 1.2rem;
+  --gap: 1rem;
+  --gap-: -1rem;
+  --gap-2: 2rem;
+  --gap-2-: -2rem;
+  --gap-fluid: 5rem;
+  --gap-fluid-: -5rem;
+  --grid-gap: 1rem;
+  --grid-gap-: -1rem;
+  --grid-gap-2: 1rem;
+  --grid-gap-2-: -1rem;
+
+  --gap-container: 5rem;
+  --gap-container-: -5rem;
+
+  --offset-site: var(--header-height);
+  --offset-site-: calc(-1 * var(--header-height));
+
+  --header-height: 11.6rem;
+  --header-top-height: 6rem;
+  --header-bottom-height: 5.6rem;
+
+  --offset-section-1: 16rem;
+  --offset-section-1-: -16rem;
+  --offset-section-2: 8rem;
+  --offset-section-2-: -8rem;
+  --offset-section-3: 24rem;
+  --offset-section-3-: -24rem;
+  --offset-section-4: 6.4rem;
+  --offset-section-4-: -6.4rem;
+  --offset-section-5: 5.6rem;
+  --offset-section-5-: -5.6rem;
+  --offset-section-6: 3.2rem;
+  --offset-section-6-: -3.2rem;
+  --offset-section-7: 12rem;
+  --offset-section-7-: -12rem;
+
+  --title-section-1: 8rem;
+  --title-section-1-: -8rem;
+  --title-section-2: 4rem;
+  --title-section-2-: -4rem;
+
+  --vr-1: 8rem;
+  --vr-2: 12rem;
+  --vr-3: 3.2rem;
+  --vr-4: 4rem;
+  --vr-5: 2.4rem;
+  --vr-6: 1.6rem;
+  --vr-7: .8rem;
+  --vr-8: 4.8rem;
+  --vr-9: 5.6rem;
+  --vr-10: 1rem;
+  --vr-11: 2rem;
+  --vr-12: 2rem;
+  @media (max-width: $xl) {
+  }
+}

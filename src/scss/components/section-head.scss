@@ -1,0 +1,21 @@
+.section-head {
+  padding: var(--vr-1) 0 var(--vr-2);
+  &__container {
+  }
+  &__row {
+    justify-content: space-between;
+  }
+  &__col {
+    &--title {
+    }
+    &--content {
+      margin-right: $colWidth;
+    }
+  }
+  &__title {
+    margin: 1.2rem 0 0;
+  }
+  &__text {
+    margin: 3.2rem 0 0;
+  }
+}
